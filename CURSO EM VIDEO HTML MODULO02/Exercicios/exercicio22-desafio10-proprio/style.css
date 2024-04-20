@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background_body {
+  width:100%;
+  background-color: #84E1AD;
+}
+
+.header_container{
+  text-align: center ;
+}
+
+.background_container {
+  background-color: #84E1AD;
+}
+
+.main_container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+section {
+  text-align: center;
+}
+
+.videodroid{
+  background-color: #1A5C38;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

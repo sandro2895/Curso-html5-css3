@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family:'mega';
+  src: url(assets/fontes/MegaMan.[fontvir.us].ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'smw';
+  src: url(assets/fontes/smw.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'retro';
+  src: url(assets/fontes/Retro\ Stereo\ Wide.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'marioc';
+  src: url(assets/fontes/SuperMario256.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'snesf';
+  src: url(assets/fontes/SNES\ Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'smb1font';
+  src: url(assets/fontes/super-mario-bros-the-lost-levels-font.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'smb2font';
+  src: url(assets/fontes/Super\ Mario\ Bros.\ 2.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'smb3font';
+  src: url(assets/fontes/Super-Mario-Bros--3.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html body {
+  background-color: white;
+  height: 100vh;
+  background-color: #d1d9cea4;
+}
+
+
+header {
+background-image: url(assets/imagens/mwIr52300\ -\ Copixa.png);
+background-color: #D1D9CE;
+height: 200px;
+background-position: center center ;
+background-repeat: no-repeat;
+width: auto;
+border: 2px solid black;
+box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.548);
+background-size: 100%;
+padding-bottom: 0px;
+margin-bottom: 70px;
+
+
+}
+
+header > h1 {
+  padding-top: 20px;
+  font-family: 'retro';
+  font-weight: lighter;
+  font-size: 80%;
+  text-align: center;
+  background-image: linear-gradient(to right,rgb(102, 101, 101), rgb(99, 99, 99),rgb(1, 1, 124),rgb(1, 1, 102)) ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+header > h1::before{
+  font-family: 'smw';
+  content: "z";
+  padding-right: 7px;
+  text-transform: red ;
+  font-size: 40px;
+}
+
+header > h1::after{
+  font-family: 'mega';
+  content: "a";
+  padding-left: 7px;
+  text-transform: red ;
+  font-size: 40px; 
+}
+
+main {
+  background-color:#D1D9CE ;
+  width: auto;
+  margin: 30px;
+  height: 200vh;
+}
+
+article{
+  position: absolute;
+  display: inline-block;
+  height: 800px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+article > h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family:'snesf';
+  font-size: auto;
+  font-weight: 900;
+  text-align: center;
+  width: 60%;
+  color: #ef0b16e8;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+
+.smwd {
+  display: block;
+  font-size: auto;
+  width: 60%;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'marioc';
+  text-decoration: solid;
+  font-weight: lighter;
+  text-shadow: 1px 1px 0px black;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  color: #01c2cf ;
+}
+
+.smb3d {
+  font-family:'smb3font' ,cursive;
+  padding-bottom: 5px;
+  display: block;
+  font-size: auto;
+  width: 60%;
+  text-align: center;
+  font-weight: normal;
+  color: #297ca8;
+}
+
+.smb2d{
+  font-family:'smb2font';
+  padding-bottom: 5px;
+  display: block;
+  width: 60%;
+  text-align: center;
+  font-size: auto;
+}
+
+.smb1d{
+  font-family:'smb1font';
+  padding-bottom: 5px;
+  display: block;
+  width: 60%;
+  text-align: center;
+  font-size: auto;
+}
+
+.img1{
+  width: 60%;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+}
+
+.content-img1 {
+  text-align: center;
+  width: 50%; 
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.content-images {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img2{
+  width: 20%;
+}
+
+.img3 { 
+  width: 20%; 
+}
+
+.img4 {
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+

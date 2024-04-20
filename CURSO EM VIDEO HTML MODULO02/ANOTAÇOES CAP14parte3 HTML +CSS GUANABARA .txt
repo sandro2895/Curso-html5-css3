@@ -1,0 +1,55 @@
+ANOTAÇOES CAP14AULA06 HTML +CSS GUANABARA
+O site GOOGLE FONTES pode ser usado para exportar fontes para o html-css
+https://fonts.google.com1
+pode ser usado a opção de filtrar fontes:
+para capturar a fonte selecione a fonte e em seguida
+clique em 'select this style'. e em seguida clicando em @import na janela que irá abrir
+em seguida coloque dentro da tag <style> ' fora de um seletor'
+Exemplo:
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+</style>
+e em seguida cole e coloque a fonte no codigo.
+exemplo :
+font-family: 'Permanent Marker', cursive;
+Selecione todas as variações de bolder e lighter se precisar.
+pode ser colocado mais de uma fonte externa de outro site.
+é bom usar somente no maximo 3 ou 4 familias de fontes e variações de pesos
+
+ANOTAÇOES CAP14AULA07 HTML +CSS GUANABARA
+Cuidado com fontes sem acentos pois não vai dar
+para escrever nada acentuado arquivos otf e ttf dependem do navegador
+Sites de fontes:
+https://www.dafont.com/pt/
+como colocar uma fonte externa.
+extraia os arquivos do zipfile
+coloque os arquivos na mesma pasta da pagina HTML ou dentro de uma pasta ao lado
+para colocar a fonte baixada no codigo:
+Usasse @font-face dentro da tag <styles> exemplo:
+format() apos o url() é necessario e pode ser colocado mais de uma fonte.
+exemplo:
+@font-face {
+    font-family:'OldLondon' ; <-- coloque o nome da fonte do nome do arquivo aqui.
+    src: url(OldLondon.ttf) format('truetype'), 
+url(Olondon_.otf) format('opentype') ;
+font-weight: normal;
+font-style: normal;
+}
+
+Existen os seguintes formats
+opentype(otf), truetype(ttf), embedded-opentype,
+truetype-aat (Apple Advanced Typography) e SVG.
+pode se colocar os arquivos OTF e e os TTF 
+
+ANOTAÇOES CAP14AULA08 HTML +CSS GUANABARA
+Como capturar fontes usadas em um site.
+Usando um plug in para capturar uma fonte que não está em uma imagen.
+Usando Fonts ninja:
+clique na extensão e ela vai mostrar todos as fontes usadas no site
+e pode mostrar o tamanho e qual é a fonte passando o mouse encima das letras.
+pode ser mudado entre bolder e lighter
+Pode pegar o nome da fonte e pesquisar para pegar em algum site.
+
+
+
+

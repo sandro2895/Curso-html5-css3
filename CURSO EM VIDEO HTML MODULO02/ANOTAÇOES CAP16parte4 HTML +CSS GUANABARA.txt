@@ -1,0 +1,19 @@
+ANOTAÇOES CAP16AULA07 HTML +CSS GUANABARA
+É possivel criar uma nova imagem no gimp
+com 80 de largura e 80 de altura e 70 resolução x e y cor de fundo transparente.
+trace reguas cliclando nas bordas ao lado da imagen.
+clique na ferramenta de seleção eliptica.
+pode ser selecionado no cursodireito para duplicar a camada da imagen.
+e um icone a direita > embaixo no progama gimp.
+é possivel usar  a imagen criada com bolinhas ao redor
+como borda no vscode.
+com a propriedade border-image-source:url()
+em seguidar use as propriedades:
+ border-image-slice: 20;
+ border-image-repeat: repeat; ou stretch;
+para estilizar mais a imagen da borda.
+em seguida use o 'inspecioanar' na pagina para arrumar 
+corretamente o border-image-slice: ;
+pode ser usado como shorthand
+exemplo:
+border-image-source:url() 27 repeat;

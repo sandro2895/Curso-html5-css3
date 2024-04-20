@@ -1,0 +1,23 @@
+ANOTAÇOES CAP08AULA01 HTML +CSS GUANABARA
+
+A tag <ol><li></li></ol> é uma tag de lista ordenada de 1 pra cima e é tabulada
+o </li> com barra se tornou opcional apartir do HTML5
+type="" pode ser usado dentro de <ol> para mudar a orden e tipo de lista (1, A, a ,I, i)
+start="" pode ser usada para mostrar onde começa a orden da lista.
+mesmo se for usado o tipo [A,a] deve ser numerada.
+
+A tag <ul><li></li></ul> é uma tag de lista não ordenada e tabulada
+type="" pode ser usado dentro da tag <ul> para mudar o tipo de lista (disc, circle, square)
+
+As tag <ol> e <ul> podem ser colocadas dentro de <li> fazendo assim uma lista dentro da outra
+
+A tag <dl> <-- pode ser usada para fazer uma lista de termo e definição.
+<dt></dt> <-- Termo
+<dd></dd> <-- Definição
+</dl> 
+
+O comando ALT+clickCursorEsquerdo pode ser usado para selecionar e mudar o nome de varias tags.
+
+o comando CTRL+ENTER vai pra linha de baixo mesmo se estiver dentro de uma tag
+
+Quando uma definição é procurada o google dá prioridade a site que tem a lista de difinições

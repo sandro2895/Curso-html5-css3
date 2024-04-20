@@ -1,0 +1,57 @@
+ANOTAÇOES CAP18parte3-github-HTML +CSS GUANABARA
+git hub social
+Clique em all git hub para pesquisar no git hub como um tudo.
+Existe marcas e usuarios.
+é possivel ir no repositorio da marca e colocar
+para notificar você sobre as mudanças em watch.
+pode ser colocado uma estrela no repositorio para segui-lo.
+o url https://github.com/explore pode usado 
+para explorer pessoas e projetos.
+pode ser buscado em trending portuguese.
+github.com/frontendbr/vagas
+você pode colocar 'issue' nos repositorios para
+identificar problemas e outros para as pessoas te ajudar.
+fexadas e abertas. é possivel editar seu perfil.
+
+
+clonagem de repositorio.
+Para poder usar o repositorios em outros lugares.
+Clicando em 'code' no git hub e abra no desktop.
+pode ser clonado o repositorio publico de qualquer pessoa.
+
+git hub em varios pcs. 
+trazendo seus repositorios para outro computador.
+
+é necessario ter um navegador(chrome), vscode, git e github desktop.
+No githubdesktop vá em file > options > account (para logar na sua conta github).
+-e assim já aparece seus repositórios.
+-e em seguida clique em file > options > git > save (para sincronizar o progama).
+-e em seguida clique no lado direito em um dos seus repositórios para clonar.
+-e em seguida abra o repositório com vscode ainda no gitdesktop.
+-e em seguida crie alguma mudança no repositório para poder dar
+commit no githubdesktop.
+-e em seguida clique em 'push' no githubdesktop.
+
+Quanto for sair do computador e não quiser deixar rastros.
+No githubdesktop clique em repository > remove .marque a caixinha de
+also move this repository ro recicle bin antes de confirmar.
+-e em seguida deslogue no file > options > account.
+-e em seguida apague o nome e email no file > options > git.
+-e em seguida esvazie a lixeira.
+
+Veja o video Seu git hub muito mais seguro - Curso de Git e Github. 
+
+Em settings na aba security pode ser feito a Two-factor authentication.
+
+Salve os recovery codes para recuperar sua conta.
+-e escaneie o codigo Qrcode que vai aparecer e coloque o codigo. 
+Baixe o app do google authenticator.
+Adicione a conta no app do google.
+e coloque o app para ler o Qrcode do github e coloque rapidamente os codigos.
+nas opções de seguranças clique em security key > sensor integrado para 
+usar sua digital para entrar na conta.
+
+No settings > security log  mostra as tentativas de login e saida de login
+e quando outras pessoas podem estar tentando logar.
+
+

@@ -1,0 +1,29 @@
+CAP05 AULA02
+
+quem manda são as tags
+
+usado para representar <> sem fazer uma tag: &lt;  &gt; 
+
+quebrar a linha que pode ser no mei de tag com fexamento  <br>
+
+fazer um comentário no html : <!-- -->
+<p>Vamos adiconar alguns simbólos:
+    &reg;
+    &copy;
+    &trade;
+    &pound;
+    &euro;
+    &yen;
+    &cent;
+    &Delta;
+    &uparrow; <p/>
+ 
+<p>vamos adicionar emojis:
+    &#x1F600;
+    &#x1F44D;
+    
+  </p>
+
+
+
+

@@ -1,0 +1,121 @@
+ANOTAÇOES CAP15parte4 HTML +CSS GUANABARA Seletores personalizados.
+elemento é o que fica semanticamente dentro da tag:
+# = id,  . = class,  : = pseudo-class,  :: = pseudo-element,  > = children
+
+Usando id(identificador) no css: Tudo que é 'id =' em HTML no CSS é #
+Tudo que é 'class =' no CSS é . 
+coloque a popriedade id="" dentro de uma tag para fazar um identificador.
+Exemplo:
+<h1 id="principal"></h1>
+<h1></h1>
+No css coloque h1 + # + o nome do id
+exemplo:
+h1#principal {
+
+}
+Fazendo assim uma modificação unica a este 'id'.
+pode ser tirado o elemento h1 de h1#principal.
+deixando somente o #principal.
+
+Dentro de um documento HTML só se pode ter um id no elemento.
+Exemplo:
+<h1 id="principal"></h1>
+<h2></h2>
+<h1></h1>
+so se pode usar um id = em  somente um <h1>
+
+Usando class(classificação)
+class ="" pode ser usado dentro de varios elementos:
+Exemplo:
+<h1></h1>
+<h2 class=exemplo></h2>
+<h1></h1>
+<h2 class=exemplo></h2>
+não classifique as classes pela forma e sim pela fucionalidade
+No CSS coloque . + o nome da class
+Exemplo:
+.basico {
+
+}
+não se deve colocar o nome do elemento antes do .
+pode ser colocado mais de uma classe na mesma tag separando por espaço.
+exemplo:
+ <h2 class="exemplo1 exemplo2"></h2>
+pode ser colocado um 'id =' e uma "class=" na mesma tag
+Exemplo:
+<h1 id="principal" class=exemplo1></h1>
+o id sobrepoe as configurações do class.
+
+A prioridade das propriedade é:
+elemento - h1{      > id - #{  > class -.{
+               }             }           }
+
+ANOTAÇOES CAP15AULA03 HTML +CSS GUANABARA Seletores personalizados
+A tag <div> pode ser usada para colocar um elemento 
+ocupando da esquerda para direita em toda a pagina
+A propriedades height: ; width: ; podem ser usadas para
+alterar a altura e a largura da div
+    
+A propriedade  border: pode ser usada para colocar uma borda no elemento da div 
+exemplo:
+border:   2px     solid    black;
+       [Largura]  [tipo]    [cor]
+
+A propriedade "display: inline-block;" pode colocar as <div> todas
+em uma linha para a direita
+Pseudos-classes são feitas com : 
+elemento ou classe + : + estado para a div.
+A Pseudos-classe configuram o estado de um determinado elemento.
+A Pseudos-classes :hover significa que alguma coisa vai acontecer ao
+passar o mouse por cima do elemento.
+exemplo:
+
+div:hover{
+           } 
+
+As pseudos-classes tem de estar ligada a um elemento ou classe
+
+A  Pseudos-classe '> pode ser usada para 
+selecionar um elemento filho dentro da <div> mudando somente tal elemento.
+exemplo :
+div > p {
+         }
+A propriedade display: none; pode ser usada para fazer o elemento desaparecer
+na pagina.
+A propriedade display: block; pode ser usada para fazer o elemento reaparecer
+na pagina.
+para mudar a pseudo-classe de um elemento filho de uma <div>
+usa-se
+div:hover>p {
+             }
+ 
+ANOTAÇOES CAP15AULA04 HTML +CSS GUANABARA
+
+é possivel personalizar links no CSS usando a propriedade
+a {
+   }
+A pseudo-classe :visited pode modificar o estilo de links ja visitados.
+exemplo:
+a: {
+ color: darkred;			
+}
+font-wight: bold é bom para deixar links em negrito.
+
+A propriedade a:active modifica o estilo do elemento que foi clickado
+exemplo:
+a:active {
+      
+    }
+Pseudo-elementos
+para usar um pseudo elemento usa-se ::
+exemplo:
+a::after {
+ content: '[link]'; <-- nome que será dado ao conteudo que vai ser estilizado
+}
+O pseudo-elemento ::after coloca algo para estilizar apos o elemento
+O pseudo-elemento ::before coloca algo para estilizar antes do elementos
+é possivel colocar uma classe dentro de um link:. exemplo:
+<a href="https://www.youtube.com/c/CursoemVídeo" class="especial"></a>
+
+pode ser usado uma classe com pseudo-elemento. exemplo:
+.especial::after

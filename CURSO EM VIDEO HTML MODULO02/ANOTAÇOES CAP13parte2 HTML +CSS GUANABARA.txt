@@ -1,0 +1,72 @@
+https://color.adobe.com/pt/create/color-wheel#
+pode ser mudado o o logo na aba TEMA
+Pode ser usado extrair gradiente na logo
+pode ser usado o a aba explorar e tendencias para fazer seus proprios TEMAS.
+
+Outras ferramente para paleta de cores: 
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+https://coolors.co/d1ccdc-424c55-f5edf0-886f68-3d2c2e
+Use o cadiado para fazer a cor não mudar mais
+facilidade para combinar cores
+*{  <--configuração global css
+ 
+  height: 100%; <-- para fuciona o. to top e o to bottom.   
+}
+
+Aula 05
+
+Capturando códigos de cores na tela
+capturando com gimp
+Printscreen e cola no gimp
+Selecionar a ferramenta de seletor de cores e clicar na cor na imagen
+
+Usando COLORZILLA:
+Instale a extensão no navegador e em seguida clique na extensão em color picker´
+permite capturar cores.
+
+Aula 06
+Criado efeito degradê(gradiente) Evitar usar 4 ou 5 cores:
+para fazer gradientes no css usa-se a propriedade: 
+background-image: linear-gradient(to right)
+é possivel girar o gradiente em graus
+Exemplo:
+è possivel usar background-image:radial-gradient(circle 
+para fazer um ciruclo
+background-image:linear-gradient(45deg
+exemplo:
+background-image: linear-gradient(to right, white, blue)
+background-attachment: fixed; <-- deixa fixo.
+pode ser carregado imagens no adobe colors para extrair gradientes
+pode ser usado porcentagem ao lado da cor. para diminuir a cor:
+background-image:linear-gradient
+(to top,#6223CC,#7F1BB0 10%,#E94138, #F5BF52);
+      background-attachment: fixed;
+
+Aula7
+Um exemplo real
+SEMPRE LEMBRAR DE USAR @charset "UTF-8"; NO TOP DO ARQUVO CSS para não ter
+problemas com caracteres especial e acentos
+A tag <main> é uma div especial que diz que é seu conteúdo principal.
+não esquecer
+ * {
+  height: 100%; <-- para poder usar o degrade top e bottom
+}
+a propriedade 'width' pode evitar que background do texto ocupe a largura toda
+exemplo:
+main {
+  background-color: rgba(240, 248, 255, 0.363);
+  width: 600px;
+  margin: auto; <--centraliza para o centro da tela
+}
+
+A propriedade border-radius: 20px; arredonda as borda do css
+A propriedade box-shadow pode dar sombra a borda do css
+Exemplo:
+a propriedade text-shadow: pode ser usado para colocar uma sombra no texto
+box-shadow: 10px            10px                10px                    black; 
+        [direta da sombra] [baixo da sombra] [espalhamento da sombra]  [cor da sombra]
+os mesmo parametros pode ser usados para border-radius:
+para fazer monocromia arreste a cor para baixo ou para cima na barra de cores ou use:
+https://www.w3schools.com/colors/colors_picker.asp
+

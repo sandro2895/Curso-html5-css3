@@ -1,0 +1,72 @@
+ANOTAÇOES CAP19parte1-github-HTML +CSS GUANABARA
+https://gustavoguanabara.github.io/html-css/imagens/mascote.png
+
+Abra os exercicio no vscode atraves do githubdesktop agora.
+A propriedade display: inline-block; dexa os block em linha reta
+um do lado do outro.
+
+colocando imagens de fundo
+Usando id="" no seus elementos block-levels.
+Use a Proriedade background-image: url (''); para colocar imagens de fundo.
+exemplo:  background-image: url(imagens/pattern001.png).
+se a imagen for muito grande  o html não vai mostrar a imagen toda
+dependendo do tamanho do block.
+lembre de deixar sua imagen menor com o gimp.
+
+PERSONALIZANDO IMAGENS DE FUNDO.
+
+A propriedade background-size: ; configura o tamanho da imagen
+A imagen pode ser replicada varias vezes usando o valor 2 vezes
+exemplo:
+background-size: 100px 100px ;
+
+A propriedade background-repeat: ; modifica se a imagen deve ou não se repetir
+background-repeat: no-repeat; faz a imagen não se repetir mais.
+background-repeat: repeat-y; faz a imagen se repetir verticalmente
+background-repeat: repeat-x; faz a imagen se repetir horizontalmente
+Normalmente o ponto de partida da imagen sempre é o canto superior esquerdo.
+
+Posição de imagem de fundo.
+
+crie um id="" no seus elementos block-levels.
+A propriedade  background-position: ; muda onde fica a posição da imagen.
+Exemplos:
+background-position:  left top;, background-position: left center;
+background-position: right bottom;  background-position: center center;
+Isso faz as imagens começar da posição determinada pelo background-position: ;
+Olhe o walpaper003.jpg para ver o grafico completo das direções.
+-e também veja o exercicio fundo03.html e fundo04.html.
+
+Use height: 98vh; para fazer a imagen no body aproveitar 100% no meio do body.
+
+Use border: 1px dashed black; para saber onde fica o limite da viewport do body.
+assim use o background-position: ; para mover a imagen pela pagina.
+A orden de valor no background-position: é a coluna e depois a linha horizontal.
+Isso muda onde e a direção que imagem começa quando está em telas pequenas.
+Bom para quando voce quer que onde a imagen do seu site comece.
+
+-é recomendavel ter um background color:black para aparecer enquanto 
+seu site está carregando.
+
+Use background-size: 100%      100%; para deixar a imagem bem expandida e colada bem dos 
+lados da tela.    ( largura) ( altura) 
+
+A propriedade background-size: contain; faz o fundo ser exibido 100% na tela
+contido com barras.
+
+A propriedade background-size: cover; coloca a imagen de fundo 100% na tela
+porém corta a imagen se for diminuida e responsiva.
+
+
+A propriedade background-size: auto; dexa o navegador se virar e exibir a imagen
+por conta propria automaticamente.
+
+professorguanabara.github.io/html-css/exercicio/ex022/fundo006.html
+
+
+
+
+
+
+
+

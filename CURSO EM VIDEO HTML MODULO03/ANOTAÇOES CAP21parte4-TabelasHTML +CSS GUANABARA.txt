@@ -1,0 +1,51 @@
+ANOTAÇOES CAP21parte4-TabelasHTML +CSS GUANABARA
+Olhar exercicio23 > tabelas02.html.
+
+Cabeçalho fixo em tabelas grandes
+
+position:; muda o comportamento do seu elemento se fica fixo(absolute) ou relativo.
+sticky deixa grudavel.
+
+colocando a propriedade em top: 0; se tiver junto a propriedade
+position: sticky; isso faz grudar no elemento top de cima 0
+no thead > tr > th {
+position: sticky;
+top: 0;
+}
+top: -1px; dexa o top grudado mais colado ao top
+
+
+deve ser colocado o position: relative; na tag ordenada acima.
+exemplo :
+
+<table> <-- coloque o position: relative; aqui.
+    <caption>População das Unidades Federativas</caption>
+      <thead>
+        <tr>
+          <th scope="col">Estado</th> <-- pode ser colocado o position: sticky; aqui.
+
+
+
+Mesclagem de células.
+olhar exercicio23 > tabelas03.html.
+coluna é oque está em pé e linha é oque está deitado.
+
+fazer um <td> ocupar oque está ao o restante ao lado > .
+
+coloque a propriedade colspan="" dentro da <td>.
+exemplo:
+<tr>
+      <td>A</td>
+      <td colspan="2">B</td>
+    </tr>
+
+fazendo assim a a tabela com colspan="" ocupar as linha a direita
+restante apartir de onde ela está.
+de acordo de quantas a direita colunas tem.
+
+A propriedade rowspan="" faz a tabela ocupar as linhas abaixo
+restante apartir de onde ela está.
+exemplo. de acordo com quantas linhas não tem a abaixo da tabela em questão.
+
+<td rowspan="3">F</td>
+

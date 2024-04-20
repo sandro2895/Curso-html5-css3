@@ -1,0 +1,78 @@
+ANOTAÇOES CAP17parte3 HTML +CSS GUANABARA
+
+Aside e  Rodapé
+
+Pode ser necessesario configurar seu ul ou ol para as bolinhas ou numeros
+não ficarem fora da caixa do box-level.
+
+Use a propriedade list-style-position: inside; nas declarações da ul ou ol.
+para deixar uma lista empurrada  para dentro da box.
+
+A propriedade columns: ; pode dividar as listar lado a lado em colunas
+(não compativel com todos os navegadores.)
+exemplo:
+aside > ul {
+	columns: 2;
+     }
+
+Não esquecer de usar emojis para estilizar melhor a lista ou outros elementos.
+
+A propriedade list-style-type: ; pode estilizar á numeração da lista
+podendo colocar emojis.
+'\ + numero do emoji'
+Exemplo:
+list-style-type: '\2714' ; <--Use a contrabarra invertida \
+Adicione um \00A0 apos o emoji e ainda dentro das aspas
+para fazer espaços de quebra.
+pode ser usados quantos quiser seguido de \
+
+para usar um emoji coloque uma \ (barra invertida) antes do número
+exemplo:
+\1F517
+
+pode ser bom usar:
+padding: 5px;
+  margin: -10px -10px 0 -10px; Usando margins negativas.
+para deixar um h1-h6 no topo de uma caixa porem perder as bordas redondas.
+
+quando o link for externo é bom colocar um emote 1F517 ao lado do link usando
+um uma classe com um pseudo-elemento.
+Exemplo:
+a.externo::after {
+  content: '\1F517';
+}
+
+
+Responsividade de video do youtube, vimeo etc.
+
+Para centralizar e mexer na posição de um video coloque o <iframe> dentro de uma <div>
+Junto com uma classe.
+Exemplo:
+<div class="video"><iframe width="560" height="315" 
+src="https://www.youtube.com/embed/l2UDgpLz20M" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; 
+clipboard-write;
+ encrypted-media; 
+gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+Use margin: 0 -20px; para empurrar e colar os lados  da <div> do video
+ 
+Use
+div.video > iframe {
+
+
+}
+Para mexer no Iframe
+
+coloque:
+padding-bottom: 50%;
+  position: relative; no div.video{
+
+coloque: position: absolute; no div.video > iframe{
+
+Dessa forma pode ser colocado as propriedade top: ; e left: ;
+no div.video >iframe{
+
+A propriedade padding-bottom: 50%;
+Mexe nas barrinhas pretas laterais do video do youtube.

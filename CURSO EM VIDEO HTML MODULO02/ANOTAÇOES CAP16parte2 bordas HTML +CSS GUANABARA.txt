@@ -1,0 +1,51 @@
+ANOTAÇOES CAP16AULA02 HTML +CSS GUANABARA
+use o 'especionar' para ver melhor os modelos de caixa.,
+é possivel colocar um h1 como display:inline.
+A pripriedade display:inline block deixa um 
+elemento na linha e com caracterisca de um bloco.
+
+A propriedade display: muda a caracteristica de um elemento.
+para modificar o tamanho da caixa do elemento pode se simplismente usar
+height: , width:
+Existem varias configurações no elemento de display:, font-size, margin-block-start,e etc...
+que são dadas por padrão automaticamento pelo user-agente(navegador)
+olhar em inspecionar.
+
+A propriedade display:block torna qualquer elemento em box-level.
+Uma margin sempre vem por padrão em elementos box-level
+é possivel mudar as propriedade no 'inspecionar' sem mexer no arquivo original.
+é possivel mexer em varios site com o 'inspecionar(devtools)'.
+mexendo so na sua visualização.
+é possivel copiar e colar as medidas modificadas no 'inspecionar'.
+para a borda ser aparente é necessario colocar a propriedade border-style:.
+O body é oque contém, todo os conteúdo h1, p , a e etc..
+O tamanho : auto x auto não quebra a linha
+
+é possivel colocar as as mesma configurações de elementos como div,h1 e p
+em elementos inline-level.
+exemplo :
+a {display: block;
+      border-width: 10px;
+      border-style: solid ;
+}
+padding possui 4 lados de configurações  padding-left:10px ; padding-bottom:10px;
+padding-right:10px; padding-top:10px ;
+As medições de uma shorthand sempre são no sentido orario.
+
+ANOTAÇOES CAP16AULA02 HTML +CSS GUANABA
+A margin pode ser usada pra dar um espaço entre um elemento e outro.
+A proriedade margin:auto serve para centralizar a caixa do elemento.
+A propriedade outline: ; coloca a outiline entre o meio da borda e a margin
+é necessario colocar uma outline-style: para o outline aparecer na pagina.
+O outline não fica aparente no inspecionar mas pode ser mudado.
+O limite de ate onde o OUTLINE pode crescer é sempre calculado e dependente do
+tamanho da MARGIN. Pode extrapolar porem não aumenta nem diminui a margin em si.
+Quando se bota uma shorthand com so um valor para todas as medidas da propriedade
+é possivel verificar no inspecionar na setinha > ao lado da propriedade
+que todas as medidas  de uma propriedade foram mudadas pra uma só.
+
+quando se bota somente 2 valores numa shorthand os valores de cima e baixo ficam iguais
+ao primeiro valor dado e os valores da direita e da esquerda ficam iguais ao segundo valor
+colocado.
+pode ser centralizado somente os valores esquerda e direita de uma propriedade usando
+dois auto.

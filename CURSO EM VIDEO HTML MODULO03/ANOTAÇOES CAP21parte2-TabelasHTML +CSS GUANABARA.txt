@@ -1,0 +1,48 @@
+ANOTAÇOES CAP21parte2-TabelasHTML +CSS GUANABARA
+
+Alinhamento de tabelas.
+Os elementos das tabelas podem ser alinhados com a propriedade text-align: center;
+exemplo:
+
+table {
+text-align: center; <-- Isto é um alinhamento horizontal.
+}
+
+A propriedade vertical-align: ; pode ser usado para alinhar verticalmente elementos
+de uma tabela ou outro. Sendo o meio :middle ;
+Exemplo: Lembre-se de usar na declaração td(dado da tablea).
+td {
+       border: 1px solid black;
+       padding: 5px;
+       vertical-align: top; <-- alinhamento vertical.
+   }
+
+Tabelas grandes e semanticas(melhores para ser achador pelo buscador google).
+
+Anatomia para tabelas grandes e semanticas.
+ TABLE
+   -CAPTION <-- legenda da tabela.
+     Coloca-se somente um texto.
+   -THEAD <--HEADER ou cabeçalho da tabela.
+      -TR, TD, TH
+   -TBODY <--BODY(MAIN) ou corpo da tabela.
+      -TR, TD, TH
+   -TFOOT <-- FOOTER ou rodape da tabela. (não é obrigatório).
+      -TR, TD, TH
+
+O navegador ja organiza as tabela semanticamente não importa a ordem que coloque.
+Exemplo: não esqueça de usar a tag <strong> para dar força e importancia ao número.
+<table>
+<caption>
+
+</caption>
+<thead> <-- pode ser colodado <th> e <td> dentro das tabelas.
+
+</thead>
+  <tbody>
+
+  </tbody>
+  <tfoot>
+
+  </tfoot>
+</table>

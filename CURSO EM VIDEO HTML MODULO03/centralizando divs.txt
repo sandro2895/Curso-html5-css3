@@ -1,0 +1,4 @@
+display: flex;
+  justify-content: center;
+
+use width: %; para deixar a imagen centralizada responsivamente

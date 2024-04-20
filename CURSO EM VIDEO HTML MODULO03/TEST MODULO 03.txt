@@ -1,0 +1,53 @@
+
+
+Qual das declarações a seguir é a única que funcionaria corretamente para definir uma imagem de fundo para um site?
+
+ body { background-image: url("fotos/fundo.jpg"); }
+ 
+
+Ao usar a shorthand para simplificar as configurações de imagens de fundo, a ordem correta das propriedades deverá ser:
+
+
+ background-color, background-image, background-position, background-repeat, background-attachment
+
+
+Quem foi o famoso criador do Git?
+
+
+ Linus Torvalds
+
+ Ao usar a propriedade background-repeat nas configurações de folha de estilo, qual valor configurado vai mostrar as imagens de fundo empilhadas, uma em cima da outra, verticalmente?
+
+
+ background-repeat: repeat-y;
+ 
+
+A propriedade background-size aceita alguns valores literais para adaptar o tamanho da imagem ao fundo do elemento. Da lista a seguir, qual é o único valor que não será aceito na propriedade background-size?
+
+
+ full
+
+Qual é o nome da funcionalidade que permite hospedar seu site gratuitamente e gerar uma URL personalizada para seu projeto?
+
+
+ GitHub Pages
+
+Atualmente, o GitHub pertence a que grande empresa de Tecnologia?
+
+ Microsoft
+
+
+O primeiro passo para centralizar completamente um elemento dentro do outro (vertical e horizontal) é configurar um posicionamento especial do item que está mais internamente, usando a declaração:
+
+ position: absolute;
+
+Qual é o nome que damos ao efeito visual que acontece quando percebemos que as coisas que estão mais perto de nós se deslocam de forma diferente das que estão mais distantes?
+
+
+ parallax
+
+
+Qual é o nome da ferramenta disponível para Windows, Linux e MacOS que permite gerenciar repositórios locais e remotos sem precisar decorar comandos nem usar o terminal do sistema?
+
+ GitHub Desktop
+ 

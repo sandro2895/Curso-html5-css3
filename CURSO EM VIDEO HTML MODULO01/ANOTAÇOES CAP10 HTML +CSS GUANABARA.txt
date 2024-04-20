@@ -1,0 +1,35 @@
+ANOTAÇOES CAP10AULA01 HTML +CSS GUANABARA
+
+Todo link é um hyperlink feito em uma âncora no html
+
+Otimização para mecanismos de busca encontrar seu site (seo)
+
+A tag <a> pode ser usado para ancorar um link
+target="_blank" pode usado para fazer o link abrir em outra Janela ou aba
+target="_self" é bom usar para abrir na mesma pagina impedindo assim acumulo de páginas e abas
+rel="" pode ser necessario para referenciar a relação
+‣next indica que o link é para a próxima parte do documento atual
+‣prev indica que o link é para a parte anterior do documento atual
+‣author indica que é um link para o site do autor do artigo atual
+‣external indica que é um link para outro site que não faz parte do site atual
+A tag <a> pode ser usada parar fazer um link que leva a outra pagina da sua pasta
+(um link interno) e pode usado pra ir e voltar entre paginas.
+È bom lembra de [rel="next" e rel="prev" pode indicar pro google 
+qual é a proxima página e a página anterior.
+Sendo assim uma semántica.]
+Sempre que você tiver um link patrocinado o google recomenda usar o rel="nofollow"
+fazendo assim o mecanismo de busca não perpetua a busca e não indexa a busca ao autor
+e não dando aval(credito) ao conteúdo.
+href="../" se refere volta uma pasta anterior
+href="./" se refere a própria pasta
+a href="#" pode ser usado para deixar um link vazio.
+<a href="Aulapdf/10 - Ligações em toda parte.pdf" pode ser usado para baixar um arquivo
+download="Aula10" dentro da tag <a href> nomeia o download
+type="aplication/pdf" pode colocar o tipo que vai ser o arquivo
+
+Esse site possui uma lista de todos os mediatype(tipo de midia) para colocar 
+como tipo de arquivo
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+clique com o botao direito do mouse no arquivo e em seguida clique em enviar para
+pasta compactada para fazer um arquivo zip

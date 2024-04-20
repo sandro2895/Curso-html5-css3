@@ -1,0 +1,32 @@
+ANOTAÇOES CAP21parte5-TabelasHTML +CSS GUANABARA
+
+Lembre-se de usar de colocar os <th> e <td> dentro de todo <tr>.
+
+Aparti da 2 linha de seu rowspan=
+já comece com <td>
+
+Só existe escopo em <th>.
+
+Escopos de grupo
+
+Coloque scope="col" para dizer que um <th> esta em somente uma coluna
+
+Coloque scope="row" quando o <th> estiver se referindo a somente uma linha.
+
+
+Coloque scope="colgroup"(grupo de coluna) quando usar uma mesclagem de celulas <th>
+-e quando os <td> baixo do <th> forem um conjunto de coluna.
+2 ou mais colunas. 
+
+Coloque scope="rowgroup"(grupo de linhas) quando o <th> estiver se referindo a um
+conjungo de linhas.
+
+Não esquecer de colocar 
+
+<thead>
+<tbody>
+<tfoot>
+
+dentro de uma <table>.
+
+<caption> vem antes do <thead>

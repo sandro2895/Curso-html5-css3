@@ -1,0 +1,47 @@
+ANOTAÇOES CAP21parte6-TabelasHTML +CSS GUANABARA
+A largura do caption depende de tantas colunas tiver no codigo.
+
+scope="" sempre devem estar no th.
+
+Pode ser usado a propriedade width: px; para alargar o tamanho das tabelas.
+
+como fazer para selecionar mais de uma coluna sem usar class no css.
+
+Use a tag <colgroup> emcima de <caption> e dentro dela coloque <col> para cada coluna
+que voce tiver na tabela.
+e assim  crie uma class="" nas <col>.
+
+Exemplo:
+<colgroup>
+      <col class="cnome">
+      <col class="csexo">
+      <col class="cidad">
+      <col class="cprof">
+    </colgroup>
+
+pode ser selecionado mais de uma coluna com um só <col>
+Use span="2" apos a class="" do <col> em questão.
+
+Exemplo:
+<col class="cnome">
+      <col class="cgrupo" span="2"> <-- Isso faz selecionar a 2 e terceira coluna.
+      <col class="cprof">
+
+pode ser mudado tambem somente o class="" das  <col> no css.
+fazendo assim colunas zebradas.
+
+Tabelas responsivas:
+Macete:
+
+Coloque o <table></table> todo dentro de uma <div></div>.
+Use um class="" ou um id="". de preferencia id="container" dentro da <div>.
+
+No id ou class "container" use a propriedade overflow: ;
+-overflow significa transbordar.
+overflow-y: ; é rolagem vertical e overflow-x: ; é rolagem horizontal.
+overflow-y: auto; deixa a Tabela com uma rolagem horizontal contida na box.
+
+Exemplo:
+div#container {
+      overflow-y: auto;
+   }

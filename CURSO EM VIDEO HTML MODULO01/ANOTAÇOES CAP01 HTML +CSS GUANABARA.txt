@@ -1,0 +1,58 @@
+ANOTAÇÕES:
+https://github.com/gustavoguanabara
+
+gustavoguanabara.github.io
+
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+https://developer.mozilla.org/pt-BR/
+
+https://www.w3c.br
+
+WHATWG LIVING STANDARD
+
+https://www.w3schools.com
+
+LIVROS O reilly 
+
+Mark Pilgrim
+
+Eric Meyer css e gridd
+
+Estelle wyl
+
+Alta books
+ Elizabeth castro e Bruce Hyslop
+ Jon  Duckett
+ Elisabeth Robson e Eric Freeman
+
+Notatec
+ Nate Cooper e Kim Gee 	
+ Mauricio samy silva
+
+Design grafico
+ GG
+ David Dabner e outros
+ Eva Heller
+ Ellen Lupton
+
+Senac
+ Bob e Maggie Gordon	
+
+OSTRaining
+ Jorge Montoya e Stephen Burge
+ 
+Bookman
+ Bill Sanders
+ Eric meyer 
+
+A internet surgiu da Arpanet ramificada
+
+Documentario
+ How does the internet work?
+ https://youtu.be/TNQsmPf24go
+
+Gopher
+
+ Tim Berners- Lee
+ Mozait

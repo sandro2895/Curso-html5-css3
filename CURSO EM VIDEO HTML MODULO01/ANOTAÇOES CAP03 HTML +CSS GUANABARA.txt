@@ -1,0 +1,72 @@
+Capìtulo 03 Aula 01
+
+Termo correto : EU DESENVOLVO EM LINGUAGEM DE HTML E CSS
+
+HTML - linguagem Focado em [contéudo
+-HYPERTEST       - textos 
+-MARKUP          - imagens  
+-LANGUAGE        - videos
+                 - tabelas]
+(Linguagem de marcação de hipertexto)
+
+CSS : Design/Estilo [cores, sombras, tamanhos, posicionamento] 
+-CASCADING
+-STYLE
+-SHEETS 
+(Folhas de Estilo em cascata)
+
+JS - javascript : Interações
+-menus
+-animações
+-popups
+-validações
+
+Exemplo de tag
+.Com fexamento
+<h1>       Exemplo de titulo    </h1>
+[Abertura  [Conteúdo]          [Fechamento
+da                              de
+tag[                            tag]
+
+.Sem fexamento
+<img scr="foto.png"    alt="        exemplo de foto">
+[somente abertura]     [parâmetro]   [valor]
+
+Exemplo css
+[seletor] h1 {
+  [declaração = propriedade + valor] 
+}
+
+Exemplo HTML
+<!DOCTYPE html> [indica que é html5]
+<html lang="pt-br"> [linguagem do conteúdo]
+<head> [Área de configurações da página]
+  <meta charset="UTF-8"> [compatibilidade com texto/codigo UTF-8] [UTF-8 aceita acentuações]
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">[vai ocupar 100% da área do body]
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> [Área da pagina]
+  <title>Document</title> [titulo]
+</head>
+<body>
+  
+</body>
+</html>
+
+Capìtulo 03 Aula 02
+
+São tecnologias client-side/front-end (interatividade do usúario)
+-HTML
+-CSS
+-JS
+
+São tecnologia serve-side/back-end [banco de dados] (interação do código com o servidor)
+-PHP
+-JSNODE
+-CSharp
+-PHYTON
+-RUBY
+-JAVA
+
+Full stack é um desenvolvedor especializado em client-side/front-end e serve-side/back-end
+
+ 
+

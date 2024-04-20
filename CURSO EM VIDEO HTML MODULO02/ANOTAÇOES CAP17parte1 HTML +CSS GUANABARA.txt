@@ -1,0 +1,98 @@
+ANOTAÇOES CAP17parte1 HTML +CSS GUANABARA
+
+Planejando layout,cores e fontes.
+Site para planjamentos de sites.
+mockflow.com
+é possivel desenhar caixas de como vai ser seu site.
+crie um drawning > Web.
+pode criar um layoute com elements.
+é possivel planejar toda a estrutura do site.
+fazendo varios Retangles e posicionando-os.
+È possivel colocar varios texto, titulos,imagnes e videos.
+para testar como vai ser no site.
+para deixar dentro de uma dive use 'send backwards.
+A fonte usada no site será a BeBas Neue
+e entao use o modelo do mockflow como base ao lado para
+fazer o html e css.
+
+Use o texto que está na pasta ao lado do arquivo html 
+para copiar mais facilmente o projeto.  
+Lembrar de identar com o TAB depois de copiar o texto do projeto. 
+shift+tab volta a identação.
+
+[EXTRA] <-- é um conteúdo alternativo ou secundario.
+Envolopar com abreviatura:
+CTRL+SHIFT+P e em seguida selecione Enmet: Abrevietion
+
+Um conteúdo extra, alternativo ou secundario. é bom envelopar com <aside> para semantica.
+
+pode conter mais de um <h1> um no  <header> e um no <main>
+
+Quando for fazer um <abbr> (abreviação) faça dentro do <li> ou tag em questão.
+
+Variáveis em CSS.
+
+Pode exister Variáveis em liguagem de marcação texto e linguagem de progamação
+Cores usadas no projeto do desafio 10:
+#ebe5c5
+#83e1ad  De cima pra baixo verde claro ao verde escuro.
+#3ddc84 
+#2fa866
+#1a6c37
+#063d1e
+
+Pode ser bom usar suas cores comentadas no css para faciliar na hora de copiar e colar
+nas propiedades.
+Exemplo:
+/*
+#ebe5c5
+#83e1ad  
+#3ddc84 
+#2fa866
+#1a6c37
+#063d1e
+*/
+
+Pode ser melhor ainda usar a pseudo-classe :root
+tudo que estar na pseudo-classe :root pode servir para o documento inteiro e pode ser
+criado variáveis.
+Toda variavel no html se representa com "--" + nome da variável e
+em seguida ":" com o valor da variável.
+Exemplo:
+:root {
+  --cor0:#ebe5c5;
+  --cor1:#83e1ad;
+  --cor2:#3ddc84;
+  --cor3:#2fa866;
+  --cor4:#1a6c37;
+  --cor5:#063d1e;
+ --fonte-padrao: arial, verdana, Helvetica, sans-serif; <-- sequencias de fontes.
+}
+Em seguida as variáveis pode sem usadas nas propriedades das declrações do css:
+Exemplo: pode ser digitado na mão ou usado o Ctrl+spacebar.
+body {
+  background-color: var(--cor0);
+  font-family: var(--fonte-padrao);
+                 (variável)
+	
+
+}                  
+
+
+Tudo que for mudado no 
+:root {
+}
+Será aplicado nos valores das propriedades em que as variáveis foran colocadas.
+
+Use --> *{
+  
+}
+para fazer configurações globais no seu CSS
+Está configuração é recomendada para tirar todos os padding e as magins dos elementos
+inicialmente.
+*{
+  margin: 0px;
+  padding: 0px;
+}
+Essas configurações globais é recomendavel sempre colocar após
+as declarações : @charset, @import, @font-face e :root. 

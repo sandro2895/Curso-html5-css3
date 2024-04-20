@@ -1,0 +1,121 @@
+ANOTAÇOES CAP11 HTML +CSS GUANABARA
+
+Imagens dinâmicas
+
+criar um arquivo dinamico
+
+GIMP > Novo arquivo > Larg: 300 .Alt: 300 e Larg: 700 . Alt: 700 e Larg:1000 e Alt: 1000 
+                      Resolução X: 80.00 Resolução Y: 80
+
+As reguas junto com a ferramenta de movimento pode ser usado para mover a letra
+criada pela ferramenta de texto
+A imagen da letra pode ser arrastada para outra imagen.
+A opacidade pode ser alterada no lado direito -> do progama
+Clique emcima da letra para mover a imagen da letra
+Use a ferramente de preenchimento para pintar o fundo
+Se o usuario sair do site, o google entende como uma rejeição
+A tag <picture> pode ser usada para juntar a tag <source> com a tag <img> 
+A tag <source> media, type > pode ser usada para mudar a imagen quando
+ela atinge certo pixeis
+Não esquecer o type="image/png
+Exemplo:
+<picture>
+    <source media="(max-width: 1000px)" srcset="imagens\media.png" type="image/png">
+    <img src="imagens/grande.png" alt="Imagen flexível">
+  </picture>
+
+exemplo2 :
+<picture>
+        <source media="(max-width: 500px)" srcset="imagens\dan-droids-pq.png"  type="image/png">
+        <img src="imagens/dan-droids.png" alt="imagendroid">
+      </picture>
+Verificar o devtools- no momento que a barra de rolage. quebrar
+pegar os pixels e colcar no max-widht.
+Isso tudo ajuda a diminuir a taxa de desistencia dos usuarios
+Lembrar de sempre deixar A tag <source> em orden corretas.porque se não a imagen não carrega.
+Ordem exemplo> pequena> 
+               média>
+               grande.
+PRESSIONE 'C' PARA CORTAR A IMAGEM NO GIMP
+
+Direitos autorais tambén existe pra sons e musica
+
+Youtube studio tem a bliblioteca de audio gratuitos
+Sem atribuição necessaria
+caso com atribução é necessario colocar descrição
+
+Musicas e sons gratis:
+https://uppbeat.io
+gustavoguanabara.github.io
+A tag <audio> pode ser usado para colocar uma musica ou som.
+A tag <audio> é compativel somente com os formatos MP3, WAV E OGG.
+O atributo 'autoplay' dentro da tag <audio> pode ser usado para
+reproduzir a musica automaticamente
+O atributo 'controls' dentro da tag <audio> pode dar play e pausar a musica.
+Nem todos os navegadores tem compatibilidade com mp3.
+Para suportar mais de um tipo de arquivo de audio usasse:
+preload pode ser usado dentro da tag <audio> para pre carregar o audio.
+'loop' pode ser usado dentro da tag <audio> para recomeçar sempre o audio.
+<audio preload="none" autoplay controls>
+exemplo:
+    <source src="midia/musicl.mp3" type="audio/mpeg">
+    <source src="midia/musicl.ogg" type="audio/ogg">
+    <source src="midia/musicl.wav" type="audio/wav">
+  </audio>
+Arquivos WAV constuman ser bem grandes
+O navegador tenta carregar o audio de cima pra baixo
+porém se não conseguir carregar é recomendavel fazer
+um link para o download 
+
+
+CAPITULO 11 PARTE SOBRE VIDEO
+
+
+site para baixar videos sem direitos autorais
+https://www.pexels.com/pt-br/
+Progama para converter formatos e diminuir videos
+https://handbrake.fr
+No handbrake
+A qualidade do video pode ser mudada em 'Perfil' ou 'preset'
+O tipo do video pode ser mudado em 'Formato' 
+e em seguida clicando em "Start Encode" ou "Iniciar Conversão" para modificar e salvar.
+Videos com qualidade alta podem requer maior custo da hospedagem
+Podem ter outros progamas para converter para OGV
+
+Procura convertor de video OGV no google
+https://convertio.co/pt/mp4-ogv/
+https://video.online-convert.com/pt/converter-para-ogv
+È bom ter videos de varios formatos para ter mais compatibilidade
+com varios computadores e navegadores
+
+A tag <video> pode ser usada para reproduzir um video em seu navegador.
+O atributo 'poster' pode ser usado dentro da tag <video> para deixar uma imagen.
+antes do video dar o play. pode ser necessario deixar a imagem no mesmo tamanho
+que o video.
+os atributos 'control', loop, autoplay e podem ser usados na tag <videos>
+o atributo 'width' pode ser usado para diminuir o video no site porem
+não diminui o tamanho do video em si no arquivo
+é recomendavel a tag <source> dentro de video para colocar mais de um tipo de
+arquivo de video.
+Exemplo:  
+<video width="300" controls>
+    <source src="midia/barquito.mp4" type="video/mp4">
+    <source src="midia/Barquito2.m4v" type="video/m4v">
+    <source src="midia/Barquito3.webm" type="video/webm">
+    <source src="midia/barquito.ogv" type="video/ogg">
+<p>Seu navegador nâo tem compatibilidade com reprodução de videos.</p>
+  </video>
+caso o navegador não é compativel com nenhum dos tipos de arquivos
+vai aperecer o paragrafo:
+<p>Seu navegador nâo tem compatibilidade com reprodução de videos.</p>
+Quantos mais quantidade de tipos de video maior o custo de hospedagem e trafego.
+Quantos maior o tamanho do tipo de video maior o custo de hospedagem e trafego.
+Em compartilhar em qualquer video do youtube é possivel clicar em incorporar para
+pegar um codigo html para por no seu site
+Fazendo assim só consumir dados de hospedagem do youtube e não consumindo o seu.
+È recomendavel usar videos proprios e com direito livre. 
+o site vimeo pode ser usado para deixar o video aberto ou nâo para qualquer pessoa.
+também pode ser feito imcorporações no vimeo
+Fazendo assim só consumir dados de hospedagem do vimeo porém é pago
+o consumo mensal  de transferencia de banda do vimeo é ilimitado
+e existe outros sites que fazem o mesmo que vimeo.

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      position: relative;
+      
+    }
+
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgray;
+      border: 1.5px inset black;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: 1px 1px 2px 1px;
+      
+    }
+
+    thead{
+      background-color: gray;
+      color: black;
+      border: 1px solid black;
+      box-shadow: 1px 1px 2px 1px;
+      border-radius: 5px;
+    }
+    tfoot {
+      background-color: gray;
+      color: black;
+      border: 1px solid black;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 1px 1px 2px 1px;
+      
+    }
+
+    thead > tr > th {
+      position: sticky;
+      top: -1px;
+      background-color: gray;
+    }
+
+    tbody > tr:nth-child(2n-1) {
+      background-color: lightgray;
+    }
+    tbody > tr:nth-child(2n) {
+      background-color: wheat;
+    }
+
+    th {
+      border: 2.5px solid black;
+      padding: 6px;  
+      box-shadow: 1px 1px 2px 1px
+    }
+    
+    td {
+      border: 1px solid black;
+      padding: 3px;
+      text-align: center;
+      box-shadow: 1px 1px 1px 1px;
+      
+    }
+
+     .numerotd {
+      text-align: right;
+      padding: 4px; 
+      vertical-align: middle;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <table>
+    <caption>População das Unidades Federativas</caption>
+      <thead>
+        <tr>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 50px; padding: 8px;">População</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td >
+            São Paulo
+          </td>
+          <td class="numerotd" >
+            46.649.132
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Minas Gerais
+          </td>
+          <td class="numerotd">
+            21.411.923
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rio de Janeiro
+          </td>
+          <td class="numerotd">
+            17.463.349
+          </td>
+        </tr>
+      </tbody>
+      <tfoot >
+        <th scope="row">
+          Total de habitantes
+        </th>
+        <td style="border-width: 2.5px; background-color: lightgray;" class="numerotd">
+          <strong>85.524.404</strong>
+        </td>
+      </tfoot>
+    </table>
+</body>
+</html>
+

@@ -1,0 +1,3 @@
+Pode ser necessario colocar uma <div> cobrindo o <main> e o <h1> dentro de <header>
+para melhor posicionar as imagens, palavras e colorir o background;
+Use class="" nas <div>

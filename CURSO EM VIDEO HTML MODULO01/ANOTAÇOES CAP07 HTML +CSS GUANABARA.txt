@@ -1,0 +1,27 @@
+ANOTAÇOES CAP07AULA01 HTML +CSS GUANABARA
+
+HIERARQUIA DE TITULO
+
+Exemplo:
+Um titúlo <-- nivel 1
+
+1 -INTRODUÇAO está abaixo de titúlo <-- nivel 2
+1.1 -isso está abaixo de introdução <-- nivel 3
+1.2 -outro exemplo abaixo de introdução <-- nivel 3
+ 1.2.1 -um exemplo baixo do exemplo de introdução <-- nivel 4 
+ MAXIMO 6 NIVEIS
+ 
+ <h1>Entendendo Portugal</h1> <!--nivel-1--> TITULO PRINCIPAL
+  <h2>INTRODUÇÃO</h2><!--nivel-2--> SUBTITULO
+  <h3>Justificação da temática</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam, nesciunt excepturi, harum consequatur nulla ratione sapiente aut nihil, quibusdam accusamus corporis provident neque quidem aliquid cumque et culpa dolores.</p>
+  <h3>Caráter exepcional</h3><!--nivel-3-->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem ullam, quia quasi error pariatur laboriosam? Autem quidem consequatur excepturi saepe, sunt minus a harum corporis ullam, praesentium possimus aliquid!</p>
+  <h3>Perguntas de partida</h3>
+  <h3>Metodologia de investigação</h3> <!--nivel-3-->
+  <h4>etapas</h4><!--nivel-4-->
+  <h4>Intrumentos de analise</h4>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sequi ducimus impedit voluptatem, odio ullam laboriosam debitis. Sed consectetur modi assumenda veniam similique nesciunt voluptate, laboriosam cupiditate quae totam ex!</p>
+  <h2>O ORDENAMENTO DO TERRITORIO</h2> <!--nivel-2-->
+  <h3>Instrumentos do território</h3>
+  

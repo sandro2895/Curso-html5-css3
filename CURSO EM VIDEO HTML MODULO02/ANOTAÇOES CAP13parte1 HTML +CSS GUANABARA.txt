@@ -1,0 +1,86 @@
+ANOTAÇOES CAP01AULA01 HTML +CSS
+
+Importancia das cores
+é bom ter um site com cores harmonicamente distribuidas
+grande especialista na área de otimização de
+conteudo Neil Patel
+ler pdf cores para mais informações sobre cada cor;
+site mais aprofundado na pscologia das cores e com cores mais mescladas e detalhadas:
+http://www.matildefilmes.com.br/psicologia-das-cores-guia-avancado-para-profissionais/
+cuidado com a misturas de cores com fundo preto com fonte branca pois
+o contraste causa um cansaço visual.só é bom com pouco conteúdo para consumir
+site para escolher cor
+https://color.adobe.com/pt/create/color-wheel
+
+Cores no css
+Site para pegar cores especificas no RGB ou Hex(#) ou HSL
+https://www.w3schools.com/colors/colors_picker.asp
+
+<!--Representação por nomes-->
+ 
+<!--Representações por hexadecimais-->
+<!--hexadecimal 0 1 2 3 4 5 6 7 8 9 A B C D F-->
+
+<!--Representações por RGB-->
+    <!--RED,GREEN,BLUE-->
+
+<!--Representação por HSL-->
+  <!--HUE,SATURATION,LUMINOSITY-->
+A barra do meio das cores da para escolher a transparencia.
+A barra de cima das cores pode alternar entre HEX,RGB,HSL e HWB.
+Alpha é transparencia
+
+Harmonia das cores Site de paleta de cores : https://paletadecores.com,
+https://color.adobe.com/pt/create/color-wheel
+
+Circulo cromatico
+uma coisa simetrica acaba-se tornando mais bonita.
+Cores primarias:
+AMARELO, VERMELHO, AZUL: não fican tão bonitas
+Cores secundaria:
+LARANJA, VERDE,VIOLETA(ROXO) : não fican tão bonitas
+Cores Terciárias: são sempre misturas das cores primárias e secundarias.
+Sempre se diz o nome da cor primaria primeiro e depois o nome da cor secundaria.
+cores:
+Amarelo-esverdeado, Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado,
+Azul-arroxeado, Azul-esverdeado.
+ 
+Cores frias: Amarelo-esverdeado, VERDE, Azul-esverdeado, 
+AZUL, Azul-arroxeado,VIOLETA(ROXO)
+
+Cores quentes: AMARELO, Amarelo-alaranjado, LARANJA, Vermelho-alaranjado
+,VERMELHO,Vermelho-arroxeado    
+
+Para ver uma cor que constrata com a outra é so ver a cor oposta no circulo cromatico
+Cores analogas são as cores que estão ao lado da cor no circulo cromatico
+
+uma combinaçao com a cor analoga junto a uma cor de constrate dá uma boa paleta de cores
+
+Paleta de cores 
+Cores analogas relacionadas:
+pega uma cor + uma cor relacionada e em seguida pula uma cor ao lado para pegar a cor.
+
+Cores analogas e coplementar
+pega uma cor  e em seguida uma de cada lado e uma oposta 
+
+Cor intercaladas
+
+Cores triadicas: pula tres cores em cada lado selecionando 3 cores
+
+Cores em quadrado
+
+cores tetrádicas : pegue 2 cores e as suas complementares. 
+Monocromia
+Se refere a harmonia que utiliza somente uma cor, 
+alterando apenas a tonalidade da cor escolhida, ou seja, mudando 
+apenas a saturação e o brilho da cor.
+Degrade é modificar a saturação e luminosidade de qualquer cor.
+
+
+Ver esse site para mais informações
+https://chiefofdesign.com.br/teoria-das-cores/#:~:text=Cores%20intercaladas&text=É%20um%20esquema%20com%20bom,mais%20difícil%20de%20se%20lidar.
+
+
+
+
+

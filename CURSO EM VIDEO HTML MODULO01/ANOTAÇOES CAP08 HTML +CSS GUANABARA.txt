@@ -1,0 +1,58 @@
+ANOTAÇOES CAP08AULA01 HTML +CSS GUANABARA
+
+Semântica: o significado dos vocábulos, por oposição a sua forma.
+
+Tags obsoletas
+https://dev.w3.org/html5/pf-summary/obsolete.html
+https://www.w3.org/TR/2010/WD-html5-20100304/obsolete.html
+TAG VERMELHAS SIGNIFICA TAG OBSOLETA
+ALGUMAS TAGS QUE NÃO ESTÃO EM VERMELHO TAMBEN PODEN ESTAR OBSOLETAS
+Para tudo que é forma agora se reserva as CSS
+Tags poden dar SEMÂNTICA ,destaque e significado as palavras
+ALGUMAS TAGS QUE NÃO ESTÃO EM VERMELHO TAMBEN PODEN ESTAR OBSOLETAS
+
+Semântica e significado é para o HTML
+
+Forma e estilo é para o CSS
+
+ANOTAÇOES CAP08AULA02 e AULA 3 E 4
+
+https://books.google.com
+
+para arredondar a imagen no gimp CRTL+C e em seguida menu editar > colar como > nova imagen 
+O icone tem de estar na mesma pasta do html para fucionar.
+A tag para mostrar icones é <link rel="shortcut icon" href="EXEMPLO" type="image/x-icon">
+A tag <img> pode ser usada para inserir imagen
+A tag <b> de negrito não é semántica
+A tag <strong> em negrito  tem semántica 
+A tag <i> de itálico não é semántica
+A tag <em> em itálico  tem semántica
+A tag <mark> pode fazer um marca-texto
+A tag <big> está obsoleta pois não dá significado
+A tag <small> pode ter significado
+a tag <del> o texto pode deve ser lido,mas não pode ser considerado
+a tag <u> pode sublinhar, porem nâo é semántica
+a tag <ins> pode sublinhar e possui significado de inserir
+a tag <sup> pode ser usada para inserir coisas acima do tipo x20+3
+a tag <sub> pode ser usada para inserir coisas embaixo do tipo H2O
+a tag <code> para codigos-fonte deixa a 
+fonte monoespaçada (com espaço lateral do mesmo tamanho para cada letra) 
+porem não organiza o codigo com identação.
+a tag <pre> pode identar e organizar a tag <code> e é uma pre-formatação
+a tag <q> pode ser usada para destacar citações e dar sentido a mesma e sem quebra de linha.
+a tag <blockquote> pode fazer citações maiores, tabuladas e tambén pode ser 
+referenciada com o "cite="" dentro da tag <blockquote. e coloque o nome do autor para manter o
+direito do produtor de conteúdo.
+a tagg <abbr> pode ser usado para abreviações que fican destacadas na 
+palavra ao passar o mouse .
+<p><bdo></bdo><p> pode ser usado para mostrar texto revertido
+
+Algumas fontes não são monoespaçada(não reserva o mesmo espaço lateral pra cada letra)
+
+Style é so para o css
+pode ser colocado dentro da Tag
+style="background-color: lime ;"
+
+O comando SHIFT + TAB pode ajudar a puxar a linha pra esquerda
+Somente TAB pode acrecenta uma tabulação de linha pra direita
+

@@ -1,0 +1,4 @@
+background-image: linear-gradient(to right, black, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;

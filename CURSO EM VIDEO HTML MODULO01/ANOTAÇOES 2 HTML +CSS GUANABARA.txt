@@ -1,0 +1,44 @@
+
+Capitulo 02 Aula 01
+Codigo multibyte
+ UFT-8 ?
+ARMAZENAMENTO > MEGABYTES > MB |DIFERENTE DE| Mb < MEGABITS < TRANSMISSÂO
+
+MODEN = Modulação de onda BITS e Demodulação
+
+IP: https://www.iplocation.net/
+
+Servidor DNS = Domain Name System "Agenda" 
+
+As solicitaçôes do computador toman varias rotas
+
+Capitulo 02 Aula 02
+
+DOMÍNIO > Identifica seu site 
+  - Nome único
+  - Pago anualmente 
+  - Vários TLDs (Top Level Domain)	 
+
+HOSPEDAGEM > Armazena seu site/Domínio
+  - Espaço para armazenar arquivos
+  - Pago mensalmente geralmente
+  - Espaço, memória, recursos
+
+URL significa: localizador padrão de recursos (Uniform Resource Locator) pode ter um "Caminho"
+
+  TLD
+-Genericos
+.com > Comercial
+.job > Trabalhos e recursos humanos
+.gov > Governo
+.edu > Educacional
+.info > Informação
+
+CcTld Referente ao pais
+.br > Brasil
+.us > Estados Unidos
+https://en.wikipedia.org/wiki/Country_code_top-level_domain
+
+Sub-Domínio
+-WWW
+

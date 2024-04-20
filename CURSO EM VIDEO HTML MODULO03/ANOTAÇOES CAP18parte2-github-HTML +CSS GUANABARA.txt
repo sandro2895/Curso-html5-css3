@@ -1,0 +1,36 @@
+ANOTAÇOES CAP18parte2 HTML +CSS GUANABARA
+Hospedando no github
+Com GitHub Pages.
+Clique em settings no repositorio.
+procure por git hub pages.
+primeiro clique em choose a theme.
+e em seguide clique em commit.
+assim voce vai ter seu endereço
+exemplo:
+https://sandro2795.github.io/Curso-html5-css3/
+pode ser usado o Reade me para mandar diretamente para arquivos.
+criando um repositorio para abrir diretamente seu site:
+copie e cole os arquivo e o projeto e o css. 
+em um diretorio criado no github desktop.
+em seguida mude o nome do projeto para index
+E em seguida vá no repositorio que ficou no site do 
+e va em github pages
+selecione  NONE e clique em main branch
+ou a branch criado para o repositorio.
+assim será possivel acessar seu projeto por um endereço
+bom quando o projeto é unico
+
+Fazer seu site ser acessivel em QR Code
+https://www.qr-code-generator.com
+Clique em URL e cole a url do site dado no github ou outros.
+pode ser colocado a logo e personalizado o codigo QR Code.
+Git hub pages so serve pra hospedar html css e js na pagina.
+
+
+
+Fazendo manutenção nos sites que estão hospedados no github.
+Mude o margin-bottom para padding-bottom se for necessario.
+Para melhorar a visualizalção do site no celular.
+e em seguida dé um commit e um push no github desktop.
+Mudando assim seu site no github pages.
+as vezes as mudanças poden demorar um poco.

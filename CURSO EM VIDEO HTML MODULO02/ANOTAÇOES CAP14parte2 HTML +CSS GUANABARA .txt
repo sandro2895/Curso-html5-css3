@@ -1,0 +1,42 @@
+ANOTAÇOES CAP14AULA03 HTML +CSS GUANABARA
+e bom usar uma safe conbination no css fonte family
+para usar uma fonte se nao tiver a a outra
+
+Pode ser usado no font-family
+font-family: ;
+san-serif
+serif
+monoespace junta com san-serif ou serif
+
+pode ser usado mais de uma propriedade em sequencia
+exemplo :
+h1, h2 {
+ font-family: 'Times New Roman', Times, serif;
+}
+
+
+é recomendavel sempre seguir as recomendaçoes da w3c que é o orgão principal
+W3C recomenda o uso do PX e do EM. EM = 16 px
+Existem as medidas absolutas e as medidas relativas
+Medidas absolutas:
+cm, mm, in(polegada), px, pt(pontos), pc(pica). 
+não recomendavel para tudo pois fica diferente em alguns dispositivos.
+Medidas relativas: 
+em(Relativo ao M maiscuslo de uma fonte), ex(altura x), rem(relativo a fonte dada no body)
+, vw(largura viewport), vh(altura viewport), %
+a medida pontos é a fonte de medida de letras no word
+
+
+ANOTAÇOES CAP14AULA05 HTML +CSS GUANABARA
+Peso da fonte é quando a fonte pode ficar magrinha ou gordinha
+Usa-se  propriedade font-weight:ctrl+spacebar ; (lighter, normal, bold e bolder)
+ou se pode fazer com numeros sendo '400' o normal.         
+usando a font work sans
+A proprieade font-style: pode ser usada para colocar a fonte normal ou italic ou oblique.
+font-style: italic e bom para alternar entre bolder e lighter
+A propriedade text-decoration: underline; colocar uma linha embaixo do texto
+Uma propriedade 'SHORTHAND FONT' pode ser usada para colocar:
+font-style, font-weight, font-size, font-family.	
+de uma vez só.
+exemplo: font: Italic bolder 3em 'Work sans', sans-serif;
+

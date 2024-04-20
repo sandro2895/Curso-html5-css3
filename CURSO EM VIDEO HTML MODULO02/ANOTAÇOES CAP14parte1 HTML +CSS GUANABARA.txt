@@ -1,0 +1,55 @@
+ANOTAÇOES CAP14AULA01 HTML +CSS GUANABARA
+Monges copistas faziam copias de livros na idade media.eran caros e raros. 
+
+Johannes Gutenberg no seculo 15 inventou a prensa mecanica de tipo móveis e
+foi considerado o pai da imprensa.
+os tipos móveis podiam ser de metal, rolha cortiça, argila e madeira.
+apesar dos chineses ja teren inventado um tipo de prensa mecanica de tipo móveis.  
+e depois surgiu a necessidade de criar letras melhores de ler e tipos de fontes.
+e assim sugriu a tipografia(týposgraphía).
+um estudo de como escrever coisas no papel.
+A forma e tipo de escrever também pode transmitir emoções.
+um designer sempre costuma botar boas imagens ,boas cores e boas letras.
+
+ANOTAÇOES CAP14AULA02 HTML +CSS GUANABARA
+
+Anotomia do tipo
+O corpo do tipo corresponde ao tamanho da letra. Na tipografia mecânica, o corpo é 
+a largura do tipo, medida na direção de alto a baixo do 
+caracter (ou seja, do ascendente ao descendente), expresso em pontos (1pt = 0.376mm = 1/12 de cícero ou de paica).
+O corpo determina o espaçamento mínimo entre linhas.
+
+A altura 'x' é bom para ser usado para construir uma fonte nova
+para definir a altura base das letras minusculas
+existe a altura das maiusculas feitos pelo o A ou o Q maiusculos.
+ascendente é a altura vazada pelo uma letra minuscula
+descendente é o vazamento pra baixo da letra  minuscula.
+Somando todas as altura se chama de corpo.
+Serifa é o limite da perna baixa ou emcima da fonte.
+A serifa cria uma linha imaginaria no nosso cerebro que facilita a leitura.
+não lemos cada letra isolada mas sim uma palavra como um todo.
+
+haste são pilares que contén na palavra
+filete une as hastes e arcos
+esporão é o salto de sapato que contén na letra para ela não cair
+o vertice é a parte pontuda emciam da letra
+parte da letra e elemento que não esta preso em outro lutar
+
+COMPONENTES ANATOMICOS GEOMETRICOS ANATOMIA DO TIPO
+A letra K tem o braço e perna 
+A letra S tem a espinha
+A tem uma barriga
+Os buracos dentro das letra se chama olho
+a perna emcima da letra q se chama orelha e a parte de baixo se chama cauda
+glifo é uma letra. algumas fontes são serifadas
+todos os glifos em uma determinada familia é chamado de FONTE.
+as vezes uma mesma fonte de familia  pode ter varias formas e familias tipograficas
+sans-serif significa sem serif
+fontes monoespaçadas cada letra ocupa o mesmo espaço
+fonte handwriting tenta simular a escrita humana feita a mão.
+fontes display são comemorativas e não obdecem e nem usam nenhuma regras das fontes acima.
+A fonte timesnewroman costuma ser a fonte padrão em navegadores
+
+
+
+

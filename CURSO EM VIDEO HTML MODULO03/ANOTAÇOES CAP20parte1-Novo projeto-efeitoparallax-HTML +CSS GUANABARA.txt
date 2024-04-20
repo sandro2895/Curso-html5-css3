@@ -1,0 +1,75 @@
+ANOTAÇOES CAP20parte1-Novo projeto-efeitoparallax-HTML +CSS GUANABARA
+
+professorguanabara.github.io/projeto-cordel/
+
+Se seu site tiver varios textos envelope em sections.
+use <br>(quebra de linhas) para separar as frases se for poesia.
+envelope os elementos dentro da section em <p>(paragrafos).
+para ter as poesias semanticamente separadas em paragrafos.
+
+Não esqueço do @charset "UTF-8"; no começo do CSS para fazer ele aceitar
+acentuações.
+
+Criando efeito parallax
+
+coloque as class=normal e class=imagem respectivamente nas 
+sections ate o final(olhar desafio12-cordel.hml).
+lembra de colocar no topo do css 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+para tirar as magin e padding padroes que o navegador coloca.
+
+coloque
+html, body {
+  min-height: 100vh; <-- faz o html e body usar 100% da viewport.
+  background-color: darkgray;
+
+}
+
+Não esquecer de usar line-height: 2em; nas poesias.
+Use a propriedade font-variant: small-caps; para deixar o texto
+maiusculo porém com as primeira letra de cada palavra bem maior que as outras.
+
+Use header a, footer a { 
+e header a:hover, footer a:hover{
+para ser mais especifico
+
+Sempre coloque seu css em orden coerente
+Exemplo:
+Header
+Main
+Footer
+
+Para fazer o efeito parallax
+
+Separe os paragrafos com classe.
+
+section.normal {
+  background-color: white;
+  color: black;
+}
+
+section.imagem {
+  background-color: rgba(0, 0, 0, 0.637);
+  color: white;
+}
+
+coloque nas sections como um todo
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+Use section.imagem > p { para configurar especificamente o paragrafo.
+
+Fazer uma fonte ficar menor e responsiva sem mediaq
+
+Use a propriedade font-size: 10vw; Use VW
+
+Use section > p {
+  padding-bottom: 2em;
+} para deixar os paragrafos bem espaçados entre si.
+

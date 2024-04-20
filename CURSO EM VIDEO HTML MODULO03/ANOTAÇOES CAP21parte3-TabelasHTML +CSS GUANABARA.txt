@@ -1,0 +1,52 @@
+ANOTAÇOES CAP21parte3-TabelasHTML +CSS GUANABARA
+
+Caption e Escopo de títulos em tabelas.
+
+Caption coloca-se somente um texto.
+
+lembre-se da semantica <th> são titulos para os  <td> dados .
+
+ESCOPOS: è util para o google analisar os dados da sua tabela de forma coerente.
+
+para dizer que um <th> é um titulo de uma coluna.
+Use a propriedade scope="col" dentro de um <th>
+Exemplo:
+ <tr>
+    <th scope="col">Estado</th> <-- Dizendo assim que está na mesma coluna.
+    <th scope="col">População</th>
+  </tr>
+
+Use a propriedade scope="row" dentro de um <th> (normalmente em um footer).
+para dizer que o th dado está na mesma linha do dado.
+Exemplo
+<tfoot >
+        <th scope="row">
+          Total de habitantes
+        </th>
+        <td> <-- Dado.
+           85.524.404
+        </td>
+      </tfoot>
+
+Mundando o style de um <th> muda todos as coluna de <td> abaixo.
+
+EFEITO ZEBRADO : colocar uma linha de cada cor para melhorar a leitura.
+
+Use a pseudoclasse :nth-child() no tr para selecionar <tr> filhos no <tbody>
+Exemplo:
+tbody > tr:nth-child(2n) <-- isto siginifica que está selecionado de 2 em 2 filhos do tr.
+
+:nth-child(2n-1) pega em 2 em 2 filhos anteriores.
+:nth-child(odd)  para pegar somente filhos impares.
+:nth-child(even) para pegar somente filhos pares.
+
+Pode ser colocado mais de uma declaração tbody > tr:nth-child(). 
+para fazer varios styles e efeitos diferentes.
+Exemplo:
+ tbody > tr:nth-child(2n-1) {
+      background-color: lightgray;
+    }
+    tbody > tr:nth-child(2n) {
+      background-color: wheat;
+    }
+

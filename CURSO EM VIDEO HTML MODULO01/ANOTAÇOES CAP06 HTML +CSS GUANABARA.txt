@@ -1,0 +1,36 @@
+ANOTAÇOES CAP06 AULA01
+Alterar o filtro de imagens para ter uma imagen sem direito autoral
+sites de imagens de uso livre e gratis:
+https://unsplash.com 
+https://www.pexels.com/pt-br/
+https://www.freepik.com
+https://commons.wikimedia.org
+https://pxhere.com
+
+ANOTAÇOES CAP06 AULA02
+JPEG :  um formato de compactação de imagen - bom para pesquisar imagens com o tamanho grande
+PNG : não tem as mesmo nivel de compactação do JPEG porem permite transparencia
+
+
+ANOTAÇOES CAP06 AULA03
+
+GIMP
+editar imagens:
+IMAGENS > REDIMENSIONAR IMAGENS
+
+
+ANOTAÇOES CAP06 AULA04
+Ferramenta de gilhotina no GIMP pode corta o espaço de transparencia da imagen
+
+ANOTAÇOES CAP06 AULA05
+Site de icones:
+https://iconarchive.com
+https://www.favicon.cc
+https://favicon.io
+
+Exibir > extensões de nome para arquivo
+
+Tag para colocar um icon deve ser colocada em cima de "tittle" 
+<link rel="shortcut icon" href="EXEMPLO" type="image/x-icon">
+
+

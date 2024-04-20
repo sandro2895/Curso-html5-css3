@@ -1,0 +1,102 @@
+ANOTAÇOES CAP17parte2 HTML +CSS GUANABARA
+
+Responsividade:
+Deixar seu síte responsivel é adpatar o tamanho o conteúdo de seu site a 
+tamanho de telas diferentes (celular, tablet, pc e etc...).
+Um dos recursos mais simples para se fazer responsividade é
+limitar o tamanho minimo e o tamanho maximo de interface.
+não é recomendavel deixar a interface muito grande.
+é ideal deixar o maximo de 1200 ou 1000 pixels de largura.
+é recomendavel tamanho minimo 800 px.
+
+
+verifique com o dev-tools alargando e diminuindo a tela para ver 
+os pixels da tela.
+ou comporare como você lê essas anotações e ate onde  o maximo as
+palavras vão.
+Blocos normalmente sempre ocupam 100% da tela.
+Teste a responsividade criando um arquivo html comparando o texto e imagens.
+
+instale a extensão windows resizer para testar varias resoluções
+de telas de dispostivos. 
+clique na extensão para testar varias responsividade
+de dispositivos diferentes.
+Clique no I na extensão
+e sempre mostra o tamanho da sua viewport automaticamente.
+ver 'exercicio' HTML'responsividade' para saber ver mais testes.
+
+A propriedade margin:auto;  deixa o conteúdo centralizado quando ele é alargado.
+Use as propriedade min-width: ;(tamanho minimo que ele vai ocupar mesmo em uma tela pequena)
+e max-width: ;(tamanho maximo que ele vai ocupar mesmo em uma tela gigante)
+para deixar o conteúdo mais responsivo.
+no min-width: ; o conteúdo se adapta ao dispositivo.
+no max-width: ; o conteúdo para de crescer.
+
+tamanho minimo de celulares antigos costuma ser 320px.
+ 
+A propriedade: width: 100%; pode deixar a imagen responsiva para o site.
+Use:
+<picture>
+      <source media="(max-width: )" srcset="">( A imagen de <img> é mudada para a imagen
+	<img src="" alt="">	  que está em <source> quando atingir os pixels de max-width:)									
+       </picture>
+Para deixar mudar a imagen quando ela atingir certo pixeis.
+
+diminua sua min-width: ; no body {} para tirar a rolagem horizontal em celurares 
+(testar com windows resizer). 
+
+Responsividade na pratica:
+normalmente sempre coloque no main {}
+as min-width: ; e min-width: ;
+
+margin:auto faz com que o conteúdo não cresça mais quando estiver em 
+tela cheias ou muito grandes.e mantén o conteudo no meio da tela.
+
+Use:
+display: block;
+  margin: auto;
+Para poder centralizar a imagen com margin: auto; com elementos normalmente inline-level.
+
+Quando se colocar um max-width em um elemento, para centralizar pode ser necessario
+usar um margin: auto;
+Use padding-right: e padding-left: para não deixar textos colados nas 
+paredes esquerda e direta.
+A propriedade text.shadow: ; coloca sombra em um texto.
+Propriedade para usar gradiente: background-image: linear-gradient();
+monocromia é um bom jeito de fazer gradientes.
+Pode ser colocado border-radius: ; em <a>(links).
+A propriedade transition-duration: pode fazer controlar o tempo que o hover
+vai aparecendo e desaparecendo.Coloque no elemento Não no pseudo-classe.
+usar padding: 5px; no :hover pode ser bom 
+
+Pode ser necessario colocar um max-width: 350px;
+para não deixar a imagen embaçada em tela grande quando ela for pequena demais.
+
+è bom fazer uma margin top e bottom para separar os paragrafos dos h1-h6.
+A propriedade text-align: justify; pode separar as palavras em espaços iguais e 
+deixar melhor para leitura.
+
+coloque O nome do elemento e nome do filho de elemento lado a lado na declação
+quando para pegar e estilisar o elemento filho que pode estar em qualquer nivel
+do elemento pai. exemplo:
+main p {
+    } 
+
+A propriedae line-height: 1em; aumenta ou diminui o espaço entre a 
+linha de cima e de baixo de um texto.
+
+pode ser bom usar line-height: 2em; e font-size: 1em;
+juntas na mesma declaração para estilizar melhor o posicionamento de linhas.
+Pode ser estilizado so os <strong>
+exemplo:
+main strong {
+}
+
+pode ser bom deixar o tamanho da fonte do h2 menor que o tamanho do h1.
+
+è bom usar para deixar a direita da imagem do gradiente branco :
+background-image: linear-gradient(to right, var(--cor1), transparent); 
+                                                       (Isso deixa o lado direito do 
+                                                         gradiente branco)
+                                                     
+  

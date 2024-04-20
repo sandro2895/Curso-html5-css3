@@ -1,0 +1,48 @@
+ANOTAÇOES CAP16AULA04 HTML +CSS GUANABARA
+Grouping tags:
+Tags de conteúdo principal em orden de cima para baixo.
+necessario para os mecanismo de buscar valorizar seu site.
+sendo a tag mais valorizado o <main>
+Não confundir as tags <head> com <header>
+<head> <-- é onde fica as configurações de seu site.
+Tags de conteúdo principal: <--tags semânticas.
+<header> <--Cabeçalho (apresentação do site)
+<main> <--Conteúdo principal(essência do site)
+<footer> <-- Rodape (Extras, autor que fez  , número de telefone e etc..)
+<nav> <-- tag onde pode ser colocador links. geralmente vai dentro da tag <header>
+As tags <header> <main> <footer> dão sentido semantico ao conteudo
+A tag <article> é a tag semantica de artigos e documentos em geral.
+A tag <aside> é um conteudo periferico que faz referencia  ao conteúdo que
+está na tag <article>.
+ A tag <section> é a semantica para um setor do documento ou aplicação.
+deve ser idetificavel com um h1-h6.
+Pode ser necessario colocar margin:0 na propriedade body {
+isso faz o conteúdo ficar colado aos lados da pagina.
+A tag <nav> é a semantica para conteúdo de navegação para direcionar 
+a varias paginas do site interno ou site externos.
+A propriedade margin: pode ser usada para separar os textos.
+Lembrar de usar as propriedade margin, padding, border. para formatar os elementos da pagina.
+para evitar erros com a margins e paddings excessivos na página, só criar em 
+todo projeto um:
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+Não exagerar nas sombras.
+Para a Propriedade box-shadow fucionar é necessario colocar a shorthand
+box-shadow: 1px 1px 1px 1px black não fuciona shorthand de um só valor.
+box-shadow: inset 1px 1px 1px 1px black faz a sombra ficar para dentro.
+sendo os valores respectivamento  horizontal, vertical. espalhamento e 
+expandimento para todos os lados
+é recomendavel só mudar a cor da sombra com monocromia com a cor preta.
+è possivel adicionar um box-shadow no especionar.
+Vertices arredondados.
+A propriedade border-radius arredonda a borda da caixa.
+pode ser configurado como short hand da esquerda para a direita
+border-radius:left-top, right-top ,bottom-right , bottom-left.
+ou
+border-radius:left-top + bottom-right, right-top + left-bottom.
+A sombra criada fica arredondada do mesmo jeito é a borda. 
+border-radius: 50px; faz a borda do elemento ficar no formato de uma bola

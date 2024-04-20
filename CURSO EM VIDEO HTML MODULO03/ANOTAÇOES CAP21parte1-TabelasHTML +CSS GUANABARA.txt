@@ -1,0 +1,49 @@
+ANOTAÇOES CAP21parte1-TabelasHTML +CSS GUANABARA
+Se você não estabelecer a orden correta das suas tags. os elementos vão aparecer antes
+ou depois de outros elementos.
+Não use tabelas para criar a estrutura do seu site e layouts.
+Só é bom para aprensentar dados de forma tabular.
+Use a font arial, helvetica para melhor visualização
+
+hierarquia de tabelas(simples).
+Ordem
+
+-TABLE = Tabela
+(dentro da table) TABLE ROW = Linha de tabela.
+	(dentro de table row) TABLE HEADER = cabeçalho de tabela.
+	(dentro de table row) TABLE DATA = dado de tabela.
+
+A tag <table> cria uma tabela.
+A tag <tr> cria uma TABLE ROW dentro de <table>. fazendo assim a primeira linha.
+A tag <td> cria uma TABLE DATA dentro de <tr> o fexamento(</td>) dessa tag não é obrigatorio.
+Exemplo: 
+<table>
+    <tr> <-- primeira linha.
+      <td>A1
+      <td>B1
+      <td>C1
+    </tr>
+    <tr> <-- segunda linha
+      <td>A2</td>
+      <td>B2</td>
+      <td>C3</td>
+    </tr>
+  </table>
+
+Colocando bordas nas tabelas.
+
+Use a propriedade border: 1px solid black; nos td{
+Exemplo:
+td {
+  border: 1px solid black;
+}
+
+Use para alargar as bodas width: ; na table {.
+ Exemplo:
+table {
+      width: 400px;
+    }
+Use padding: 5px; para desgrudar o elemento das bordas
+
+A propriedade border-collapse: collapse; dentro de table faz as bordas grudarem
+fazendo parecer com o excel.

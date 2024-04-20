@@ -1,0 +1,50 @@
+ANOTAÇOES CAP19parte2-imagens de fundo-HTML +CSS GUANABARA
+
+Backgroud- attachmente e shorthand.
+A propriedade background-attachment: fixed; dexa o fundo fixo na tela
+mesmo havendo rolagem.
+
+Fazendo uma Shorthand - background
+Ordem
+color > image > position > repeat > size > attachment
+Exemplo:
+background: black url(imagens/wallpaper002.jpg) center top no-repeat cover fixed;
+
+Por algum motivo  o size (cover) não está fucionando.
+entao use um background-size: cover;  separado.
+
+Centralização vertical de caixas
+
+margin: auto; centraliza e  alinha conteudo horizontal.
+
+Todo block-level no html por padrão está com a configuração 
+position:relative;.
+
+A propriedade position: absolute; permite você usar as propriedades
+top: ;, right: ;, bottom: ;, e left: ;
+Para configurar os espaços entre a direção declarada.
+Olhar Exercicio22 > fundo07.html para ver exemplos.
+
+
+Juntandos as propriedades position: absolute; left: 50%; top: 50%;
+faz a imagen ficar colada no canto superior direito da background-image.
+Faz a imagen ficar com uma centralização vertical e horizontal.
+
+A propriedade transform: ; pode mexer no componente de maneiras
+especial.
+
+A propriedade transform: ; translate move o componente 
+Exemplo
+transform: translate(-20px, 20px);
+
+transform: translate(-50%, -50%) faz o componente ficar bem no meio da imagen.
+Fazendo uma centralização vertical e horizontal. fazendo o componente sempre
+ficar no meio do conteudo.
+Deixe o conteudo maior fora desse componente com position: relative;
+para funcionar corretamente.
+       
+
+
+
+
+

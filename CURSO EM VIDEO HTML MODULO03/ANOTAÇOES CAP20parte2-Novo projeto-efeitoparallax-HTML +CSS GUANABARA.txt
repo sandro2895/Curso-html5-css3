@@ -1,0 +1,29 @@
+ANOTAÇOES CAP20parte2-Novo projeto-efeitoparallax-HTML +CSS GUANABARA
+
+FAZENDO EFEITO PARALLAX
+
+coloque id=img01 e id=img02 respectivamentes nas sections que
+ estáo com  class="imagem">
+
+coloque os ids com
+
+section#img01 {
+  background-image: url(../desafio12/imagens/background001.jpg);
+
+}
+
+section#img02 {
+  background-image: url(../desafio12/imagens/background002.jpg);
+}
+
+Use background-size: cover; para deixar as imagens mais organizadas
+
+A propriedade box-shadow: instet vaz uma sombra interna dentro do elemento
+fazendo o elemento parecer mei que um recorte de papel. 
+
+exemplo:
+box-shadow: inset 6px 6px 13px 0px black;
+
+Use a propriedade background-attachment: fixed; em
+section.imagem { configurando assim nas duas imagens
+para fazer o efeito parallax onde a imagem fica fixa mesmo com rolamento.

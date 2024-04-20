@@ -1,0 +1,11 @@
+Codigo multibyte
+ UFT-8 ?
+ARMAZENAMENTO > MEGABYTES > MB |DIFERENTE DE| Mb < MEGABITS < TRANSMISSÂO
+
+MODEN = Modulação de onda e Demodulação
+
+IP: https://www.iplocation.net/
+
+Servidor DNS = Domain Name System "Agenda" 
+
+As solicitaçôes toman varias rotas

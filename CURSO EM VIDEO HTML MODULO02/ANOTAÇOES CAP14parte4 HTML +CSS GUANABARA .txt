@@ -1,0 +1,22 @@
+ANOTAÇOES CAP14AULA09 HTML +CSS GUANABARA
+Detectando fontes dentro de imagens:
+sites:
+https://www.whatfontis.com
+https://www.fontsquirrel.com
+https://www.myfonts.com
+Usando whatfontes:
+coloque a imagens e selecione oque pode ser letras na imagem
+pode ser necessario identificar as letras se não poder identificar. não escreva.
+Usando fontsquirrel:
+Clique na aba Fonte Identifier.
+Usango myfonts:
+Clique na aba WhatTheFont
+e coloque a imagem.
+ANOTAÇOES CAP14AULA10 HTML +CSS GUANABARA
+Alinhamentos:
+a propriedade text-align pode se usada para
+alinhar um texto a esquerda, no centro, e na direita.
+text-align: justify; faz  texto alinhar as palavras em espaços iguais,
+a propriedade text-indent: ; pode ser usada para identar o texto
+mandando ele para a direita normalmente.
+Somente alinhe usando css.

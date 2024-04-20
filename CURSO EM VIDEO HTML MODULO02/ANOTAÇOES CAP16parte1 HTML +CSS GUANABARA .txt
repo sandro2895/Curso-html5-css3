@@ -1,0 +1,28 @@
+ANOTAÇOES CAP16AULA01HTML +CSS GUANABARA PADDING É UM EXPAÇO INTERNO
+Modelos de caixa	                 MARGIN É UM ESPAÇO EXTERNO											
+Quando se coloca uma caixa dentro da outra se chama:
+ANINHAMENTO
+Todo elemento visivel no HTML é uma caixa.
+o CSS so mexe no conteúdo dentro dessa caixa de acordo com seu 'HEIGHT:' e 'WIDTH:'.
+em cada caixa pode se colocar no conteudo  as bordas um BORDER:.
+PADDING(engordamento)é o conteudo no meio do texto e da borda.
+que pode ser mudado com padding: 
+MARGIN é o conteudo fora da borda que pode ser mudado com margin:
+OUTLINE(contorno) é o conteudo fora de BORDER e dentro de MARGIN ficando no meio deles:
+
+TIPOS DE CAIXA:
+Box-level:Independente ocupando um conteudo maior.
+Sempre se inicia em uma linha nova após um  elemento.
+Sempre ocupa a largura total da tela(100%viewport).
+Sempre ao terminar ele separa o elemento debaixo em seguida.
+Exemplo de box-level: 
+tags : <div>, <h1>, <p>, <main>, <header>, <nav>
+     <article>, <aside>, <footer>, <form>, <video>
+
+Inline-level:Ocupa somente o conteúdo que precisa.
+Sempre se inicia ao lado direito ou proximo ao conteudo anterior.
+Não ocupa a largura inteira da tela .
+O elemento em seguida pode  aparecer bem perto do seu lado direito ou proximo.
+Exemplo de inline-level: 
+tags : <span>, <a>, <code>, <small>, <strong>, <em>
+       <sup>, <sub>, <label>, <imput>, <select>

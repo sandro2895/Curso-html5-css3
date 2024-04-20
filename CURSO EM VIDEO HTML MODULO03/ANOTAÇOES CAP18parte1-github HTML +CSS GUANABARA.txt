@@ -1,0 +1,36 @@
+ANOTAÇOES CAP18parte1 HTML +CSS GUANABARA
+GIT E GITHUB
+Repositorio local/Remoto é necessario para guardar projetos.
+Com um gerenciador de versão(git) que pode ficar atualizando seu codigo.
+(repositório local)
+.
+Para salvador em um servidor usa-se um repositorio de codigos
+o github(repositório remoto)  e outras pessoas poden ajudar com suas proprias versões.
+https://git-scm.com (site para baixar o git).
+https://desktop.github.com(site para baixar github).
+Sempre instale primeiro o git.
+Na instalação marque para instalar para o vscode default.
+Crie uma conta github.
+
+No github clique em:
+Create a new repository on your hard drive(um repositorio local)...
+copie e cole o nome da pasta onde voce irá criar o repositorio.
+selecione o local path:o local da pasta que vai ser o repositório.
+Você pode selecionar que o github ignore qualquer linguagem.
+em seguida selecione a licença
+recomenda-se selecionar sempre a MIT.
+Em seguida você pode publicar seu repositorio em
+Publish repository.
+Pode ser marcado a opção para deixar publico ou não.
+O github somente suportar arquivos do maximo de tamanho de 250mb
+mesmo com a SSH KEY.
+Pode ser aberto no vs code.
+um M no vs code significa que houve modificação.
+clique em Fetch origin no github desktop para
+verificar as mudanças feitas.
+pode ser selecionada a branch e em seguida use o commit to main(branch).
+e em seguida clique em push origin no git hub.
+O git hub cria uma pasta se voce não tiver criado a pasta a 
+que estiver referindo no repositorio.
+
+Quando for remover um repositorio remova no github desktop.

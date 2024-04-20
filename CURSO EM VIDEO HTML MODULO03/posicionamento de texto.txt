@@ -1,0 +1,11 @@
+
+USe position: absolute;  fazer outra div nao empurrar outra
+
+Use para ajustar onde o texto de uma block-level fica
+ width: 400px;
+     text-align: center;
+       background-color: aqua;
+
+
+dexe o width: px; do mesmo tamanha do conteudo de baixo se quiser a justar o texto 
+para o mesmo tamanho.
